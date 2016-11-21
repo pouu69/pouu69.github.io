@@ -1,0 +1,37 @@
+# Site settings
+title: 웅's 개발 블로그
+email: pouu69@gmail.com
+description: |
+  세상과 공유하며 개발의 시야을 넓히는 일.
+  그것은 개발자의 숙명입니다.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.tyle.io" # the base hostname & protocol for your site
+
+github_username: pouu69 
+
+timezone: Asia/Seoul
+
+repository: pouu69/pouu69.github.io
+
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+gems:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/page/:num/'
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets, files]
+
+author: pouu69@gmail.com
+asset_url: /assets
+
