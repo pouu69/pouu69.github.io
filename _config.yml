@@ -1,13 +1,12 @@
 # Site settings
-title: 웅's 개발 블로그
-email: pouu69@gmail.com
+title: AWSKRUG - 대학생 서포터즈 그룹
+email: locutusss0166@gmail.com
 description: |
-  세상과 공유하며 개발의 시야을 넓히는 일.
-  그것은 개발자의 숙명입니다.
+  AWSKRUG 대학생 서포터즈 그룹
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pouu69.github.io" # the base hostname & protocol for your site
 
-github_username: pouu69 
+github_username: pouu69
 
 timezone: Asia/Seoul
 
@@ -34,4 +33,3 @@ keep_files: [assets, files]
 
 author: pouu69@gmail.com
 asset_url: /assets
-
