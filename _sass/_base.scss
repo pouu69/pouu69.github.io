@@ -43,8 +43,13 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+
 }
 
+.center-image{
+  margin: 0 auto;
+  display: block;
+}
 
 
 /**
@@ -65,6 +70,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+    list-style: lower-alpha;
 }
 
 li {
@@ -74,7 +80,9 @@ li {
     }
 }
 
-
+ul.li-type-number{
+  list-style: lower-roman;
+}
 
 /**
  * Headings
@@ -201,4 +209,21 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+
+/**
+ * text
+ */
+
+.center-txt{
+  text-align: center;
+}
+
+
+/**
+ * div
+ */
+.center-div{
+
 }
