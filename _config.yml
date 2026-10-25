@@ -1,10 +1,10 @@
 # Site settings
-title: AWSKRUG - 대학생 서포터즈 그룹
-email: locutusss0166@gmail.com
+title: pouu69
+email: ""
 description: |
-  AWSKRUG 대학생 서포터즈 그룹
+  pouu69의 개인 소개 사이트입니다.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://pouu69.github.io" # the base hostname & protocol for your site
+url: "https://pouu69.github.io" # the base hostname & protocol for your site
 
 github_username: pouu69
 
@@ -27,7 +27,7 @@ gems:
 paginate: 5
 paginate_path: '/page/:num/'
 
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude: [README.md, CHANGELOG.md, Gemfile, Gemfile.lock]
 
 keep_files: [assets, files]
 
